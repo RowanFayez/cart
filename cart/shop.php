@@ -75,7 +75,12 @@ $products = [
         'product_name' => 'Product12',
         'product_price' => 100,
         'product_image' => 'upload/product12.jpg',
-    ]
+    ],
+    // [
+    //     'product_name' => 'Product13',
+    //     'product_price' => 70,
+    //     'product_image' => 'upload/product13.jpg',
+    // ]
 ];
 
 

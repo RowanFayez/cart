@@ -82,15 +82,16 @@
     </section>
 
 <section id="form-details">
-    <form action="">
+<form id="contact-form" onsubmit="return validateForm()">
         <span>LEAVE A MESSAGE</span>
         <h2>We love to hear from you</h2>
-        <input type="text" placeholder="Your Nmae">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Subject">
-        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-        <button class="normal">Submite</button>
-    </form>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="E-mail" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <button type="submit" class="normal">Submit</button>
+        <div id="feedback-message"></div>
+    </form>
 
     <div class="people">
         <div>
@@ -150,5 +151,7 @@
 
 
     <script src="script.js"></script>
+        <script src="script2.js"></script>
+
 </body>
 </html>

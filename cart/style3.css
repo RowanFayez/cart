@@ -927,3 +927,6 @@ button.normal:active {
   color: #000;
 }
 
+#feedback-message{
+  margin-top: 50px;
+}
